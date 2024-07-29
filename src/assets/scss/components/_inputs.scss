@@ -1,0 +1,27 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.92px;
+  text-align: left;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+  &-gradient {
+    background: linear-gradient(265.48deg, #4870FF -5.06%, #FA00FF 94.87%);
+    box-shadow: 0 4px 16px 0 rgba(138, 97, 255, 0.6);
+    border-radius: 8px;
+    padding: 9px 32px;
+  }
+
+  &-none {
+    border-radius: 8px;
+    padding: 7px 30px;
+    border: 2px solid rgba(255, 255, 255, 1)
+  }
+}
