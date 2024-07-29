@@ -1,5 +1,4 @@
 .section-hero {
-  //background: url(/src/assets/images/hero-bg.png);
   margin-bottom: 54px;
 }
 
@@ -109,47 +108,16 @@
         gap: 16px;
 
         input {
-          border-radius: 8px;
-          border: none;
-          flex: 1;
-          padding: 13px ;
           min-width: 202px;
 
-          &:last-child{
+          &:last-child {
             min-width: 220px;
-          }
-
-          &::placeholder {
-            text-transform: capitalize;
           }
         }
 
         &-btn {
           flex: 1;
           width: 160px;
-        }
-      }
-
-      &-privacy {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 8px;
-
-        input {
-          cursor: pointer;
-          border-radius: 2px;
-          width: 14px;
-          height: 14px;
-        }
-
-        label {
-          cursor: pointer;
-          font-size: 14px;
-          font-weight: 400;
-          line-height: 17.05px;
-          text-align: center;
-          color: white;
         }
       }
     }

@@ -15,36 +15,48 @@
         </div>
         <div class="games-cards">
           <div class="games-cards-small">
-            <div class="games-cards-small-item">
+            <a class="games-cards-small-item">
               <img src="/src/assets/images/gametype1.png" alt="Game">
-              <p class="games-cards-small-item-name">Double Jackpot</p>
-              <span class="games-cards-small-item-corp">NetentGames</span>
-            </div>
-            <div class="games-cards-small-item">
-              <img src="/src/assets/images/gametype1.png" alt="Game">
-              <p class="games-cards-small-item-name">Double Jackpot</p>
-              <span class="games-cards-small-item-corp">NetentGames</span>
-            </div>
-            <div class="games-cards-small-item">
-              <img src="/src/assets/images/gametype1.png" alt="Game">
-              <p class="games-cards-small-item-name">Double Jackpot</p>
-              <span class="games-cards-small-item-corp">NetentGames</span>
-            </div>
-            <div class="games-cards-small-item">
-              <img src="/src/assets/images/gametype1.png" alt="Game">
-              <p class="games-cards-small-item-name">Double Jackpot</p>
-              <span class="games-cards-small-item-corp">NetentGames</span>
-            </div>
-            <div class="games-cards-small-item">
-              <img src="/src/assets/images/gametype1.png" alt="Game">
-              <p class="games-cards-small-item-name">Double Jackpot</p>
-              <span class="games-cards-small-item-corp">NetentGames</span>
-            </div>
-            <div class="games-cards-small-item">
-              <img src="/src/assets/images/gametype1.png" alt="Game">
-              <p class="games-cards-small-item-name">Double Jackpot</p>
-              <span class="games-cards-small-item-corp">NetentGames</span>
-            </div>
+              <div class="games-cards-small-item-text">
+                <p class="games-cards-small-item-text-name">Double Jackpot</p>
+                <span class="games-cards-small-item-text-corp">NetentGames</span>
+              </div>
+            </a>
+            <a class="games-cards-small-item">
+              <img src="/src/assets/images/gametype2.png" alt="Game">
+              <div class="games-cards-small-item-text">
+                <p class="games-cards-small-item-text-name">All Aboard: Dynam...</p>
+                <span class="games-cards-small-item-text-corp">RushGameStudio</span>
+              </div>
+            </a>
+            <a class="games-cards-small-item">
+              <img src="/src/assets/images/gametype3.png" alt="Game">
+              <div class="games-cards-small-item-text">
+                <p class="games-cards-small-item-text-name">Book Of Tombs</p>
+                <span class="games-cards-small-item-text-corp">NetentGames</span>
+              </div>
+            </a>
+            <a class="games-cards-small-item">
+              <img src="/src/assets/images/gametype4.png" alt="Game">
+              <div class="games-cards-small-item-text">
+                <p class="games-cards-small-item-text-name">Rudolph’s Ride</p>
+                <span class="games-cards-small-item-text-corp">NetentGames</span>
+              </div>
+            </a>
+            <a class="games-cards-small-item">
+              <img src="/src/assets/images/gametype5.png" alt="Game">
+              <div class="games-cards-small-item-text">
+                <p class="games-cards-small-item-text-name">Starburst XXXtreme</p>
+                <span class="games-cards-small-item-text-corp">StarBurst Inc.</span>
+              </div>
+            </a>
+            <a class="games-cards-small-item">
+              <img src="/src/assets/images/gametype6.png" alt="Game">
+              <div class="games-cards-small-item-text">
+                <p class="games-cards-small-item-text-name">Black Diamond</p>
+                <span class="games-cards-small-item-text-corp">RushGameStudio</span>
+              </div>
+            </a>
           </div>
           <div class="games-cards-big">
             <div class="games-cards-big-short">
@@ -64,7 +76,7 @@
               </div>
             </div>
             <div class="games-cards-big-item">
-              <img src="/src/assets/images/gametype1.png" alt="Game">
+              <img src="/src/assets/images/long-gametype1.png" alt="Game">
               <div class="games-cards-big-item-info">
                 <div class="games-cards-big-item-info-text">
                   <p class="games-cards-big-item-info-text-name">Our deals are not to be missed</p>

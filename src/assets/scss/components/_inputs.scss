@@ -34,3 +34,37 @@
     border-radius: 12px;
   }
 }
+
+.input-form {
+  border-radius: 8px;
+  border: none;
+  flex: 1;
+  padding: 13px ;
+
+  &::placeholder {
+    text-transform: capitalize;
+  }
+}
+
+.input-form-privacy{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+
+  input {
+    cursor: pointer;
+    border-radius: 2px;
+    width: 14px;
+    height: 14px;
+  }
+
+  label {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.05px;
+    text-align: center;
+    color: white;
+  }
+}

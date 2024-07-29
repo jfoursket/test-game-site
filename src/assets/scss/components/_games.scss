@@ -1,5 +1,5 @@
 .section-games {
-
+  margin-bottom: 74px;
 }
 
 .games {
@@ -11,7 +11,6 @@
   &-up {
     display: flex;
     flex-direction: column;
-    gap: 15px;
 
     &-title {
       font-size: 36px;
@@ -72,21 +71,35 @@
           height: 120px;
         }
 
-        &-name {
-          font-size: 16px;
-          font-weight: 700;
-          line-height: 19.49px;
-          text-align: left;
-          color: white;
+        &-text {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+
+          &-name {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19.49px;
+            text-align: left;
+            color: white;
+          }
+
+          &-corp {
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 14.62px;
+            text-align: left;
+            color: white;
+            opacity: 50%;
+          }
         }
 
-        &-corp {
-          font-size: 12px;
-          font-weight: 300;
-          line-height: 14.62px;
-          text-align: left;
-          color: white;
-          opacity: 50%;
+        &:hover {
+          .games-cards-small-item-text-name {
+            color: rgba(72, 112, 255, 1);
+            transition: color 0.3s;
+          }
         }
       }
     }
@@ -95,6 +108,7 @@
       flex: 1 1 50%;
       display: flex;
       flex-direction: column;
+      //justify-content: space-between;
       gap: 16px;
 
       &-short {
@@ -114,6 +128,7 @@
           &:nth-child(1) {
             background: url(/src/assets/images/short-gametype1.png);
           }
+
           &:nth-child(2) {
             background: url(/src/assets/images/short-gametype2.png);
           }
@@ -132,7 +147,7 @@
               max-width: 175px;
             }
 
-            &-desc{
+            &-desc {
               font-size: 10px;
               font-weight: 400;
               line-height: 12.18px;
@@ -142,14 +157,51 @@
             }
           }
 
-          &-btn{
+          &-btn {
             max-width: 70px;
           }
         }
       }
 
-      &-long{
+      &-item {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
 
+        img {
+          max-height: 120px;
+          max-width: 512px;
+        }
+
+        &-info {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          &-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            &-name {
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 19.49px;
+              text-align: left;
+              color: white;
+            }
+
+            &-desc {
+              font-size: 12px;
+              font-weight: 300;
+              line-height: 14.62px;
+              text-align: left;
+              color: white;
+              opacity: 50%;
+            }
+          }
+        }
       }
     }
   }

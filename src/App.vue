@@ -2,6 +2,7 @@
 import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
 import Games from "@/components/Games.vue";
+import ContactUs from "@/components/ContactUs.vue";
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import Games from "@/components/Games.vue";
   <main>
     <Hero/>
     <Games/>
+    <ContactUs/>
   </main>
 </template>

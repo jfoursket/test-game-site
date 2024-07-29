@@ -38,12 +38,12 @@
           </div>
           <form class="hero-form-form">
             <div class="hero-form-form-info">
-              <input type="text" placeholder="Firstname" required>
-              <input type="text" placeholder="lastname" required>
-              <input type="email" placeholder="Email address" required>
+              <input class="input-form" type="text" placeholder="Firstname" required>
+              <input class="input-form" type="text" placeholder="lastname" required>
+              <input class="input-form" type="email" placeholder="Email address" required>
               <button type="submit" class="button button-gradient hero-form-form-info-btn">Join now</button>
             </div>
-            <div class="hero-form-form-privacy">
+            <div class="hero-form-form-privacy input-form-privacy">
               <input type="checkbox" name="hero-privacy" id="hero-privacy" required>
               <label for="hero-privacy">I accept the Privacy Policy</label>
             </div>
