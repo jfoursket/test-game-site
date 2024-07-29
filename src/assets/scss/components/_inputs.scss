@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Proxima Nova;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.92px;
@@ -23,5 +22,15 @@
     border-radius: 8px;
     padding: 7px 30px;
     border: 2px solid rgba(255, 255, 255, 1)
+  }
+
+  &-small {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12.18px;
+    text-align: left;
+    padding: 5px 14px;
+    background: rgba(72, 112, 255, 1);
+    border-radius: 12px;
   }
 }

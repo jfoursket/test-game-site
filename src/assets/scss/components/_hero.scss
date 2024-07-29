@@ -1,5 +1,5 @@
 .section-hero {
-  background: url(/src/assets/images/hero-bg.png);
+  //background: url(/src/assets/images/hero-bg.png);
   margin-bottom: 54px;
 }
 
@@ -10,7 +10,6 @@
   padding-top: 126px;
 
   &-title {
-    font-family: Proxima Nova;
     font-size: 48px;
     font-weight: 700;
     line-height: 58.46px;
@@ -22,7 +21,6 @@
   }
 
   &-subtitle {
-    font-family: Proxima Nova;
     font-size: 28px;
     font-weight: 400;
     line-height: 34.1px;
@@ -30,6 +28,7 @@
     color: white;
     margin-bottom: 24px;
     text-transform: capitalize;
+    max-width: 389px;
   }
 
   &-buttons {
@@ -61,7 +60,6 @@
       align-items: center;
 
       &-title {
-        font-family: Proxima Nova;
         font-size: 22px;
         font-weight: 700;
         line-height: 26.8px;
@@ -89,7 +87,6 @@
 
           span {
             text-transform: capitalize;
-            font-family: Proxima Nova;
             font-size: 12px;
             font-weight: 600;
             line-height: 14.62px;
@@ -116,6 +113,11 @@
           border: none;
           flex: 1;
           padding: 13px ;
+          min-width: 202px;
+
+          &:last-child{
+            min-width: 220px;
+          }
 
           &::placeholder {
             text-transform: capitalize;
@@ -143,7 +145,6 @@
 
         label {
           cursor: pointer;
-          font-family: Proxima Nova;
           font-size: 14px;
           font-weight: 400;
           line-height: 17.05px;
