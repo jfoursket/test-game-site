@@ -16,12 +16,23 @@
     box-shadow: 0 4px 16px 0 rgba(138, 97, 255, 0.6);
     border-radius: 8px;
     padding: 9px 32px;
+
+    &:hover {
+      opacity: 75%;
+      transition: all 0.3s;
+    }
   }
 
   &-none {
     border-radius: 8px;
     padding: 7px 30px;
-    border: 2px solid rgba(255, 255, 255, 1)
+    border: 2px solid rgba(255, 255, 255, 1);
+
+    &:hover {
+      background: white;
+      color: black;
+      transition: all 0.6s;
+    }
   }
 
   &-small {
@@ -32,6 +43,11 @@
     padding: 5px 14px;
     background: rgba(72, 112, 255, 1);
     border-radius: 12px;
+
+    &:hover {
+      opacity: 75%;
+      transition: all 0.3s;
+    }
   }
 }
 
@@ -39,14 +55,14 @@
   border-radius: 8px;
   border: none;
   flex: 1;
-  padding: 13px ;
+  padding: 13px;
 
   &::placeholder {
     text-transform: capitalize;
   }
 }
 
-.input-form-privacy{
+.input-form-privacy {
   display: flex;
   justify-content: flex-start;
   align-items: center;

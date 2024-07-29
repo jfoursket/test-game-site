@@ -1,5 +1,11 @@
 <script setup>
+import {defineProps} from 'vue';
 
+const props = defineProps(['togglePopUp']);
+
+function handleClick() {
+  props.togglePopUp();
+}
 </script>
 
 <template>
@@ -15,8 +21,8 @@
           fun and excitement
         </h3>
         <div class="hero-buttons">
-          <button class="button button-none">Log in</button>
-          <button class="button button-gradient">Play</button>
+          <button class="button button-none" @click="togglePopUp">Log in</button>
+          <button class="button button-gradient" @click="togglePopUp">Play</button>
         </div>
         <div class="hero-form" id="games">
           <div class="hero-form-up">

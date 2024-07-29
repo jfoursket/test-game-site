@@ -1,5 +1,11 @@
 <script setup>
+import {defineProps} from 'vue';
 
+const props = defineProps(['togglePopUp']);
+
+function handleClick() {
+  props.togglePopUp();
+}
 </script>
 
 <template>
@@ -65,14 +71,16 @@
                   <p class="games-cards-big-short-item-text-name">Dynamite Riches Megaways</p>
                   <span class="games-cards-big-short-item-text-desc">Miners revealed a gain of €46,672 for Sandra M.! You too, dynamite the reels of the Red Tiger Daily Jackpot machines</span>
                 </div>
-                <button class="button button-small games-cards-big-short-item-btn">Play now</button>
+                <button class="button button-small games-cards-big-short-item-btn" @click="togglePopUp">Play now
+                </button>
               </div>
               <div class="games-cards-big-short-item">
                 <div class="games-cards-big-short-item-text">
                   <p class="games-cards-big-short-item-text-name">Gator Gold Deluxe Gigablox</p>
                   <span class="games-cards-big-short-item-text-desc">These swamps conceal many dangers but especially precious treasures. Will you be able to find them?</span>
                 </div>
-                <button class="button button-small games-cards-big-short-item-btn">Play now</button>
+                <button class="button button-small games-cards-big-short-item-btn" @click="togglePopUp">Play now
+                </button>
               </div>
             </div>
             <div class="games-cards-big-item">
@@ -82,7 +90,7 @@
                   <p class="games-cards-big-item-info-text-name">Our deals are not to be missed</p>
                   <span class="games-cards-big-item-info-text-desc">Discover a wide range of weekly promotions</span>
                 </div>
-                <button class="button button-small">Read more</button>
+                <button class="button button-small" @click="togglePopUp">Read more</button>
               </div>
             </div>
           </div>

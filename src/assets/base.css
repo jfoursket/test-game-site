@@ -61,10 +61,8 @@
 body {
     min-height: 100vh;
     color: var(--color-text);
-    background: url(/src/assets/images/bg.png);
     transition: color 0.5s,
     background-color 0.5s;
-    line-height: 1.6;
     font-family: Proxima Nova, sans-serif;
     font-style: normal;
     font-size: 15px;
@@ -73,7 +71,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-button, input{
+img {
+    pointer-events: none;
+}
+
+button, input {
     font-family: Proxima Nova, sans-serif;
     font-style: normal;
 }

@@ -39,6 +39,11 @@
         line-height: 19.49px;
         text-align: left;
         color: white;
+
+        &:hover {
+          color: rgba(72, 112, 255, 1);
+          transition: color 0.3s;
+        }
       }
     }
   }
