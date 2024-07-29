@@ -1,6 +1,6 @@
 header {
   background: rgba(1, 1, 31, 0.4);
-  position: absolute;
+  position: fixed;
   width: 100%;
 
   .header {
@@ -27,7 +27,6 @@ header {
         gap: 36px;
 
         a {
-          font-family: Proxima Nova;
           font-size: 16px;
           font-weight: 700;
           line-height: 19.49px;
@@ -37,6 +36,7 @@ header {
 
           &.active {
             position: relative;
+
             .gradient-text {
               background: linear-gradient(265.48deg, #4870FF -5.06%, #FA00FF 94.87%);
               -webkit-background-clip: text;

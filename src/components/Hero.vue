@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="section-hero">
+  <section class="section-hero" id="about">
     <div class="wrapper">
       <div class="hero">
         <h1 class="hero-title">
@@ -18,7 +18,7 @@
           <button class="button button-none">Log in</button>
           <button class="button button-gradient">Play</button>
         </div>
-        <div class="hero-form">
+        <div class="hero-form" id="games">
           <div class="hero-form-up">
             <div class="hero-form-up-title">Create a free account now</div>
             <div class="hero-form-up-right">
