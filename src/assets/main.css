@@ -3,8 +3,16 @@
 .wrapper {
     max-width: 1040px;
     margin: 0 auto;
+
+    @media all and (max-width: 1024px){
+        padding: 0 20px;
+    }
 }
 
 main {
-    background: center / contain url(/src/assets/images/bg.png) ;
+    background: url(/src/assets/images/bg.png) bottom / contain;
+
+    @media all and (max-width: 1024px){
+        background: url(/src/assets/images/bg.png) bottom / cover;
+    }
 }

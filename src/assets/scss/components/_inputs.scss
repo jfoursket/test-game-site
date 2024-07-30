@@ -21,6 +21,10 @@
       opacity: 75%;
       transition: all 0.3s;
     }
+
+    @media all and (max-width: 425px){
+      padding: 5px 15px;
+    }
   }
 
   &-none {

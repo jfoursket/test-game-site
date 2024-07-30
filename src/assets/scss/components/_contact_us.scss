@@ -41,6 +41,11 @@
     gap: 11px;
     min-width: 400px;
 
+    @media all and (max-width: 768px) {
+      //align-items: center;
+      min-width: 100%;
+    }
+
     &-inputs {
       display: flex;
       flex-direction: column;
